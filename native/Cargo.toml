@@ -1,0 +1,19 @@
+[package]
+name = "mouse_forms_js"
+version = "0.1.0"
+authors = ["Andrew Breidenbach <breidenbach.aj@gmail.com>"]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "mouse_forms_js"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.4.2"
+
+[dependencies]
+neon = "0.4.2"
+mouse_forms = {path = "../../mouse_forms"}

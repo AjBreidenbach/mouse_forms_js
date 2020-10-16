@@ -1,0 +1,14 @@
+{
+  "name": "mouse_forms_js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Andrew Breidenbach <breidenbach.aj@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.4.2"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
