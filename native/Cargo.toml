@@ -16,4 +16,4 @@ neon-build = "0.4.2"
 
 [dependencies]
 neon = "0.4.2"
-mouse_forms = {path = "../../mouse_forms"}
+mouse_forms = {git = "https://github.com/AjBreidenbach/mouse_forms", branch="main"}
