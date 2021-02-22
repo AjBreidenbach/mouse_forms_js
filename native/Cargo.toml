@@ -16,4 +16,5 @@ neon-build = "^0.5.0"
 
 [dependencies]
 neon = "^0.5.0"
-mouse_forms = {git = "https://github.com/AjBreidenbach/mouse_forms", branch="main"}
+serde_json = "1.0.62"
+mouse_forms = {git = "https://github.com/AjBreidenbach/mouse_forms", branch="rewrite"}
