@@ -6,7 +6,7 @@
   "author": "Andrew Breidenbach <breidenbach.aj@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "neon-cli": "^0.4.2"
+    "neon-cli": "^0.5.0"
   },
   "scripts": {
     "install": "neon build --release"
